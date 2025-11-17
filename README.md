@@ -206,7 +206,8 @@ El "algoritmo como narrador" construye una **cultura global dominada por el entr
 
 Para leer el análisis completo con metodología detallada y discusión de resultados:
 
-📄 **[Descargar documento completo (PDF)](docs/El_algoritmo_como_narrador.pdf)**
+[El_algoritmo_como_narrador_YOUTUBE.pdf](https://github.com/user-attachments/files/23592962/El_algoritmo_como_narrador_YOUTUBE.pdf)
+
 
 ---
 
