@@ -217,15 +217,10 @@ Para leer el análisis completo con metodología detallada y discusión de resul
 Data Science & AI | Digital Communication  
 Máster en Big Data e Inteligencia Artificial - CEU San Pablo
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maludmcorrales/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maludmcorrales)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://maludmcorrales.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maría-luisa-ros-bolea-400780160/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malurosbolea-ux)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marialuisarosboleaportfolio.my.canva.site/porfolio-profesional-mar-a-luisa-ros-bolea-actualizado)
 
----
-
-## 📝 Licencia
-
-Este proyecto está bajo licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
