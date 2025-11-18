@@ -9,7 +9,6 @@
 
 **Análisis de 220,000+ videos trending para entender cómo el algoritmo de YouTube construye narrativas culturales**
 
-[📄 Documento completo](docs/El_algoritmo_como_narrador.pdf) • [💻 Código](notebooks/analisis_youtube.ipynb) • [📊 Visualizaciones](visualizations/)
 
 </div>
 
