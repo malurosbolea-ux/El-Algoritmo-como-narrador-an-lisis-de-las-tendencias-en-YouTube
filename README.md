@@ -2,12 +2,14 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 **Análisis de 220,000+ videos trending para entender cómo el algoritmo de YouTube construye narrativas culturales**
+
+[📄 Documento completo](docs/El_algoritmo_como_narrador.pdf) • [💻 Código](notebooks/analisis_youtube.ipynb) • [📊 Visualizaciones](visualizations/)
 
 </div>
 
@@ -15,190 +17,144 @@
 
 ## 🎯 Sobre el proyecto
 
-Este proyecto analiza más de 220,000 videos trending de YouTube en 10 países para responder una pregunta clave: **¿Es el algoritmo de YouTube un narrador neutral o tiene preferencias claras?**
+Este proyecto analiza más de 220,000 videos trending de YouTube en 10 países para responder: **¿Es el algoritmo de YouTube un narrador neutral o tiene preferencias claras?**
 
-### Hallazgos principales
-
-- 🎵 **Music y Entertainment representan el 45%** del contenido trending - evidencia empírica de sesgo algorítmico
-- 😊 **El 65% de títulos virales son positivos** vs solo 10% negativos - el algoritmo prefiere narrativas optimistas  
-- 🎓 **Education lidera en engagement** (~4.3%) pero solo es 2% del trending - calidad sobre cantidad
-- 📈 **Correlación universal** entre vistas y likes en todas las escalas (10K a 100M vistas)
-- 🌍 **Desigualdad geográfica** - mercados anglófonos dominan en viralidad
+**Respuesta:** NO. El algoritmo tiene sesgos claros y medibles.
 
 ---
 
-## 📈 Visualizaciones clave
+## 🔍 Hallazgos principales
 
-### Correlación vistas vs likes: la dinámica universal
+🎵 **Hegemonía del entretenimiento**  
+Music y Entertainment representan el **45% del contenido trending**
 
-![Correlación vistas-likes](visualizations/grafico1_correlacion_vistas_likes.png)
+😊 **Sesgo hacia lo positivo**  
+**65% de títulos virales son positivos** vs 10% negativos
 
-**Conclusión:** Existe una correlación positiva consistente entre vistas y likes en todas las escalas, desde videos de nicho hasta fenómenos masivos. La escala logarítmica revela que este patrón es fractal.
+🎓 **Education: calidad sin visibilidad**  
+Lidera en engagement (4.3%) pero solo es 2% del trending
 
----
+📈 **Correlación universal**  
+Relación consistente vistas-likes en todas las escalas (10K a 100M)
 
-### La hegemonía de la cultura pop
-
-<div align="center">
-<img src="visualizations/grafico2_distribucion_categorias.png" width="700">
-</div>
-
-**Conclusión:** Music y Entertainment no solo dominan en viralidad, sino también en frecuencia. El algoritmo tiene un sesgo claro hacia el entretenimiento de masas.
-
----
-
-### Education: alto engagement, baja visibilidad
-
-<div align="center">
-<img src="visualizations/grafico3_engagement_categorias.png" width="700">
-</div>
-
-**Conclusión:** Education lidera en proporción likes/vistas, pero representa solo el 2% del contenido trending. Las audiencias están comprometidas, pero el algoritmo no prioriza esta categoría.
+🌍 **Desigualdad geográfica**  
+Canadá y Alemania lideran en vistas promedio
 
 ---
 
-### Geografía de la viralidad
+## 📊 Visualizaciones del proyecto
 
-<div align="center">
-<img src="visualizations/grafico4_vistas_por_pais.png" width="700">
-</div>
+Este análisis incluye **6 visualizaciones profesionales** (300 DPI, alta calidad):
 
-**Conclusión:** Canadá y Alemania lideran en vistas promedio. Los mercados anglófonos y europeos tienen ventaja estructural en alcance viral.
+1. **[Correlación vistas-likes](visualizations/grafico1_correlacion_vistas_likes.png)** - Escala logarítmica mostrando relación universal
+2. **[Distribución de categorías](visualizations/grafico2_distribucion_categorias.png)** - Music y Entertainment dominan el 45%
+3. **[Engagement por categoría](visualizations/grafico3_engagement_categorias.png)** - Education lidera con 4.3%
+4. **[Vistas por país](visualizations/grafico4_vistas_por_pais.png)** - Análisis geográfico de viralidad
+5. **[Análisis de sentimiento](visualizations/grafico5_analisis_sentimiento.png)** - 65% positivo, 25% neutral, 10% negativo
+6. **[Comparación de métricas](visualizations/grafico6_metricas_comparadas.png)** - Vistas, likes y comentarios por categoría
 
----
-
-### El sesgo emocional del algoritmo
-
-<div align="center">
-<img src="visualizations/grafico5_analisis_sentimiento.png" width="800">
-</div>
-
-**Conclusión:** El algoritmo favorece narrativas positivas en proporción 6.5:1 sobre negativas. YouTube prefiere contar historias optimistas.
-
----
-
-### Comparación multidimensional
-
-<div align="center">
-<img src="visualizations/grafico6_metricas_comparadas.png" width="800">
-</div>
-
-**Conclusión:** Comedy lidera en las tres métricas clave, mientras que Entertainment y Music muestran consumo más pasivo pese a su dominio numérico.
+> 📁 Todas las visualizaciones disponibles en [`visualizations/`](visualizations/)
 
 ---
 
 ## 🛠️ Stack tecnológico
 
-### Análisis de datos
-- **Python 3.x** - Lenguaje principal
-- **Pandas** - Manipulación de datos (220K+ registros)
-- **NumPy** - Computación numérica
+**Análisis de datos y ML**
+- Python 3.x, Pandas, NumPy
+- Scikit-learn (Modelado de temas con LDA)
+- Transformers (Análisis de sentimiento con RoBERTa)
 
-### Machine Learning & NLP
-- **Scikit-learn** - Modelado de temas (LDA)
-- **Transformers** - Análisis de sentimiento (RoBERTa)
-- **NLTK** - Preprocesamiento de texto
-- **langdetect** - Detección automática de idioma
+**Procesamiento de lenguaje**
+- NLTK para preprocesamiento
+- langdetect para detección automática de idioma
 
-### Visualización
-- **Plotly** - Gráficos interactivos
-- **Matplotlib & Seaborn** - Visualizaciones estáticas
+**Visualización**
+- Plotly (gráficos interactivos)
+- Matplotlib & Seaborn (visualizaciones estáticas)
 
 ---
 
 ## 📊 Dataset
 
-- **Origen:** [Kaggle YouTube Trending Dataset](https://www.kaggle.com/datasets/datasnaek/youtube-new)
-- **Tamaño:** 220,000+ videos (tras limpieza)
-- **Países:** US, GB, CA, DE, FR, MX, KR, JP, IN, BR
-- **Período:** Videos trending durante varios meses
-- **Variables:** views, likes, comments, category, title, tags, country
+| Característica | Detalle |
+|---------------|---------|
+| **Origen** | [Kaggle YouTube Trending Dataset](https://www.kaggle.com/datasets/datasnaek/youtube-new) |
+| **Tamaño** | 220,000+ videos (tras limpieza de 12,570 duplicados) |
+| **Países** | 10 países: US, GB, CA, DE, FR, MX, KR, JP, IN, BR |
+| **Variables** | views, likes, comments, category, title, tags, country |
+
+> ⚠️ Los CSV originales (~400 MB) NO están en este repo. Ver [`data/README.md`](data/) para instrucciones de descarga.
 
 ---
 
 ## 🔬 Metodología
 
-### 1. Consolidación de datos
-Unificación de archivos CSV de 10 países en un DataFrame global con trazabilidad geográfica.
+**1. Consolidación de datos**  
+Unificación de CSVs de 10 países en un DataFrame global con trazabilidad geográfica
 
-### 2. Limpieza de datos
-- Eliminación de 12,570 duplicados exactos
-- Gestión de valores nulos (preservación de datos)
-- **Preservación de outliers** (fenómenos virales)
-- Visualización con escala logarítmica
+**2. Limpieza de datos**  
+Eliminación de 12,570 duplicados | Gestión de nulos | Preservación de outliers (fenómenos virales)
 
-### 3. Preprocesamiento NLP
-- Detección automática de idioma (langdetect)
-- Filtrado de stopwords multilingüe
-- Tokenización y limpieza de texto
+**3. Preprocesamiento NLP**  
+Detección de idioma + filtrado de stopwords multilingüe + tokenización
 
-### 4. Modelado de temas
-- Algoritmo: Latent Dirichlet Allocation (LDA)
-- Identificación de 10 sub-narrativas principales
-- Refinamiento metodológico para dataset multilingüe
+**4. Modelado de temas**  
+LDA para identificar 10 sub-narrativas principales
 
-### 5. Análisis de sentimiento
-- Modelo: CardiffNLP twitter-roberta-base-sentiment
-- Muestra: 1,000 títulos aleatorios
-- Clasificación: Positivo (65%), Neutral (25%), Negativo (10%)
+**5. Análisis de sentimiento**  
+RoBERTa sobre 1,000 títulos: 65% positivo | 25% neutral | 10% negativo
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Estructura del repositorio
 
 ```
 youtube-trending-analysis/
-│
 ├── README.md                          # Este archivo
 ├── notebooks/
-│   └── analisis_youtube.ipynb         # Análisis completo en Jupyter
+│   └── analisis_youtube.ipynb         # Análisis completo
 ├── visualizations/
-│   ├── grafico1_correlacion_vistas_likes.png
-│   ├── grafico2_distribucion_categorias.png
-│   ├── grafico3_engagement_categorias.png
-│   ├── grafico4_vistas_por_pais.png
-│   ├── grafico5_analisis_sentimiento.png
-│   └── grafico6_metricas_comparadas.png
+│   └── *.png                          # 6 gráficos (300 DPI)
 ├── docs/
-│   └── El_algoritmo_como_narrador.pdf  # Documento completo
+│   └── El_algoritmo_como_narrador.pdf # Documento completo
 └── data/
-    └── README.md                       # Instrucciones para descargar datos
+    └── README.md                       # Cómo descargar datos
 ```
 
 ---
 
-## 🚀 Cómo replicar este análisis
+## 🚀 Replicar este análisis
 
-### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/youtube-trending-analysis.git
+# 1. Clonar repositorio
+git clone https://github.com/malurosbolea-ux/youtube-trending-analysis.git
 cd youtube-trending-analysis
-```
 
-### 2. Instalar dependencias
-```bash
+# 2. Instalar dependencias
 pip install pandas numpy scikit-learn matplotlib seaborn plotly nltk transformers langdetect
+
+# 3. Descargar datos
+# Visita: https://www.kaggle.com/datasets/datasnaek/youtube-new
+# Coloca los CSV en data/
+
+# 4. Ejecutar análisis
+jupyter notebook notebooks/analisis_youtube.ipynb
 ```
-
-### 3. Descargar los datos
-Visita [Kaggle YouTube Trending Dataset](https://www.kaggle.com/datasets/datasnaek/youtube-new) y descarga los archivos CSV. Colócalos en la carpeta `data/`.
-
-### 4. Ejecutar el análisis
-Abre `notebooks/analisis_youtube.ipynb` en Jupyter y ejecuta las celdas secuencialmente.
 
 ---
 
-## 💡 Conclusión principal
+## 💡 Conclusión
 
-El algoritmo de YouTube **NO es neutral**. Actúa como un narrador con preferencias claras:
+El algoritmo de YouTube **NO es neutral**:
 
-✅ Favorece entretenimiento sobre educación (45% vs 2%)  
-✅ Prefiere narrativas positivas sobre negativas (65% vs 10%)  
-✅ Mantiene jerarquías de categorías (Music/Entertainment > Gaming/Comedy > resto)  
-✅ Da ventaja a mercados anglófonos y europeos  
-✅ Permite pluralidad, pero con visibilidad desigual  
+| Sesgo | Evidencia |
+|-------|-----------|
+| 🎭 Temático | Music + Entertainment = 45% del trending |
+| 😊 Emocional | 65% positivo vs 10% negativo |
+| 🏆 Jerárquico | Music/Entertainment > Gaming/Comedy > Education |
+| 🌍 Geográfico | Mercados anglófonos dominan |
 
-El "algoritmo como narrador" construye una **cultura global dominada por el entretenimiento positivo**, donde otras formas de contenido requieren mayor esfuerzo para ganar visibilidad.
+**Implicación:** El algoritmo construye una cultura global dominada por entretenimiento positivo, donde otros contenidos requieren mayor esfuerzo para ganar visibilidad.
 
 ---
 
@@ -208,26 +164,46 @@ Para leer el análisis completo con metodología detallada y discusión de resul
 
 [El_algoritmo_como_narrador_YOUTUBE.pdf](https://github.com/user-attachments/files/23592962/El_algoritmo_como_narrador_YOUTUBE.pdf)
 
-
 ---
 
 ## 👩‍💻 Sobre mí
 
-**María Luisa Ros Bolea **
+**María Luisa Ros Bolea**
 
+Data Science & AI | Digital Communication  
+Graduada en Comunicación Digital, CEU San Pablo  
+Máster en Big Data e Inteligencia Artificial
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maría-luisa-ros-bolea-400780160/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malurosbolea-ux)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://marialuisarosboleaportfolio.my.canva.site/porfolio-profesional-mar-a-luisa-ros-bolea-actualizado)
+Especializada en la intersección entre comunicación digital y ciencia de datos.  
+Experiencia en Community Management, Content Creation y Growth Marketing.
 
+**Stack técnico:** Python, Pandas, Scikit-learn, NLP, Machine Learning, Data Visualization  
+**Idiomas:** Español (nativo), Inglés (C1), Francés (B1)
+
+### 📫 Conecta conmigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maría-luisa-ros-bolea-400780160/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malurosbolea-ux)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=canva&logoColor=white)](https://marialuisarosboleaportfolio.my.canva.site/porfolio-profesional-mar-a-luisa-ros-bolea-actualizado)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:malurosbolea@gmail.com)
+
+📍 Madrid, España  
+📧 malurosbolea@gmail.com  
+📱 +34 692 892 183
 
 ---
 
-
 <div align="center">
 
-**Si este proyecto te resulta útil, ¡considera darle una ⭐!**
+**¿Te gusta este proyecto? ¡Dale una ⭐!**
 
-*Construido con 💜 y mucho Python*
+*Noviembre 2025*
 
 </div>
+
+
+
+
+
+
+
